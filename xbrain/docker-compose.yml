@@ -3,6 +3,7 @@ services:
   xbrain:
     volumes:
       - ./xbrain/Demo/:/home/jovyan/work/
+      - ./dataUp/:/dataLoad/
     build:
       ./xbrain/Demo
     ports:
