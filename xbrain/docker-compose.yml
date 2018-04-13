@@ -1,5 +1,12 @@
 version: '3'
 services:
+  xbrain:
+    volumes:
+      - ./xbrain/Demo/:/home/jovyan/work/
+    build:
+      ./xbrain/Demo
+    ports:
+      - "8888:8888"
   dvid:
     image:
       "flyem/dvid"
@@ -9,13 +16,6 @@ services:
       localhost
     ports:
       - "8000:8000"
-  xbrain:
-    volumes:
-      - ./xbrain/Demo/:/home/jovyan/work/
-    build:
-      ./xbrain/Demo
-    ports:
-      - "8888:8888"
   # main:
   #   hostname:
   #     main
