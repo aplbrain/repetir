@@ -7,3 +7,5 @@ RUN conda install --yes --force libgfortran
 RUN pip install mahotas
 RUN conda install --yes --force scipy
 RUN pip install ndparse
+
+RUN echo Now run xBrainStart.py using 'python3 xBrainStart.py'
