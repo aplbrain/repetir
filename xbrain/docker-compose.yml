@@ -6,7 +6,7 @@ services:
     volumes:
       - /Users/rodrilm2/Documents/APL/GeorgiaTech/Data/proj4:/dataLoad/
     hostname:
-      dvid
+      localhost
     ports:
       - "8000:8000"
   xbrain:
