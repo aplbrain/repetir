@@ -11,9 +11,9 @@ services:
       - "8000:8000"
   xbrain:
     volumes:
-      - ./xbrainCode/Demo/:/home/jovyan/work/
+      - ./xbrain/Demo/:/home/jovyan/work/
     build:
-      ./xbrainCode/Demo
+      ./xbrain/Demo
     ports:
       - "8888:8888"
   # main:
