@@ -1,0 +1,23 @@
+version: '3'
+services:
+  dvid:
+    image:
+      "flyem/dvid"
+    volumes:
+      - /Users/rodrilm2/Documents/APL/GeorgiaTech/Data/proj4:/dataLoad/
+    hostname:
+      dvid
+    ports:
+      - "8000:8000"
+  xbrain:
+    volumes:
+      - ./xbrainCode/Demo/:/home/jovyan/work/
+    build:
+      ./xbrainCode/Demo
+    ports:
+      - "8888:8888"
+  # main:
+  #   hostname:
+  #     main
+  #   build:
+  #     ./xbrain_dvid_main
