@@ -14,7 +14,7 @@ Addtionally, `repetir` allows you to use [intern](https://github.com/jhuapl-boss
 
 ## repetir xbrain <img src="https://github.com/aplbrain/repetir/blob/master/images/docker2.png" width="200" height="100" align="right"/>
 
-This tool allows an [xbrain](http://luisrodriguezeng.com/) user to quickly spin up a DVID instance with pre-loaded public data and a dockerized jupyter-notebook containing the xbrain code pre-formatted to accomodated the pre-loaded DVID data. 
+This tool allows an [xbrain](http://luisrodriguezeng.com/) user to quickly spin up a DVID instance with pre-loaded public data and a dockerized jupyter-notebook containing the xbrain code pre-formatted to accomodate the pre-loaded DVID data. 
 
 Seeing as this tool is still not an SDK we require the user clone this repository onto their computer and use the tools in the following way:
 
